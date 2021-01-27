@@ -1,0 +1,35 @@
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+/* style submit button */
+
+input[type=submit] {
+    background-color: #4caf50;
+    color: white;
+}
+
+/*style container for input*/
+.container{
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/*the message box */
+#message {
+    display: none;
+    background-color: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+} 
+
+
