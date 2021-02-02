@@ -4,40 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./Resume.css">
-    <title>Resume</title>
+
+        <!--INTERNAL CSS IS DEFINED IN THE HEAD & sets all <h1> elements to blue:  <p> elements to red-->
+  <link href="https://www.w3schools.com/html/styles.css/">
+  <style>
+    body {background-color: powderblue;}
+    h1   {color: blue;}
+    p    {color: red;}
+    ul   {color: rgb(101, 9, 96);}
+    p    {border: 10px solid powderblue;
+    padding: 10px;
+     }
+     
+   
+    </style>
+    <title>Res-example-html</title>
+    <p><a href="https://www.google.com/">Google</a></p>
 </head>
-
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
 <body>
-    <div class="container">
-
+    <div>
         <div>
             <nav class="navbar">
                 <ul>
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="About">About</a>
                     </li>
                     <li>
-                        <a href="About.html">About</a>
+                        <a href="Resume">Resume</a>
                     </li>
                     <li>
-                        <a href="Resume.html">Resume</a>
+                        <a href="portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="Contact.html">Contact</a>
+                        <a href="contact">Contact</a>
                     </li>
                 </ul>
             </nav>
         </div>
 
         <div>
-        <h1>Resume</h1>
-        <h2>Introducttion</h2>
+        <h1>Introducttion</h1><br>
 
-         <p>I studied Software Decvelopment and have passion for long-life learning. I am aspiring to become a Full Stack developer.</p>
+        <!--image as a LINK-->
+        <a href="default.asp">
+            <img src="./image/farm-drones-africa.jpg" alt="HTML tutorial" style="width:42px;height:42px;">
+            </a>
+        
+            <p>I studied Software Decvelopment and have passion for long-life learning. I am aspiring to become a Full Stack developer.</p>
 
         <p>
             I completed a boothcamp Software development Course and have developed a website containing a portfolio and information 
@@ -55,30 +69,29 @@
               work in a dynamic company that supports my aspiration. I am a quick leaner.
        </p>
        </div>
-       
        <div>
-        <h2>Skills Abilities</h2>
+        <h2>SKILLS ABILITIES</h2>
         <p>I am proactive and highly motivated, enthusiastic and ambitious. I am reliable and have excellent time management skills. I am effective 
             at team-work. I have keen self-awareness and respect others. I currently I spent a lot of hours learning to code on my own and have 
             appreciated the feedback received from my mentors about my quick and independent learning ability. I am eager to learn and develop new skills 
             to the highest standard. I have experience of using agile for software development. I want to be part of tech innovation to create secured online service.
         </p>
         </div>
+
+        <div>
         
-        <div >
-        <h3> LANGUAGES </h3>
-             <ul id="languages">
+             <ul>
+                <li LANGUAGES </li>
                 <li> HTML </li>
                 <li> CSS </li>
                 <li>Javascript </li>
             </ul>
         </div>
 
-        <div> 
-            <h2>FRAMEWORK</h2>
-            
+        <div>
             <ul>
-               <li>Reactjs </li>
+                <h1>FRAMEWORK</h1>
+                <li>Reactjs </li>
                 <li>Database</li>
                 <li>SQL</li>
                 <li>MondoDB</li>
@@ -88,7 +101,7 @@
                 <li>TDD</li>
                 <li>Github</li>
                 <li>Agile</li>   
-                <li>Trello</li>
+                <li s>Trello</li>
             </ul>
         </div>
 
@@ -103,8 +116,8 @@
 
         </div>
 
-        <div>          
-            <h2>Work Experience</h2>
+        <div>           
+            <h1>Work Experience</h1>
             <p></p>
         </div>
 
@@ -113,9 +126,9 @@
             <p></p>
         </div>
 
-        <div>          
-            <h2>Hobbies</h2>
-            <p>I spend a lot of time learning how to code in addition, love skiing.</p>
+        <div>            
+            <h1>Hobbies</h1>
+            <p>I spend a lot of time learning how to code in addition, I enjoy  walking and skiing.</p>
         </div>
     </div>
 </body>

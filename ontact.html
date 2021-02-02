@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+               <a href="About.html" >About</a>
+            </li>
+            <li>
+                <a href="Resume.html" >Resume</a>
+            </li>
+            <li>
+                <a href="portfolio.html" >Portfolio</a>
+            </li>
+            <li>
+                <a href="contact.html" >Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <form action="/action_page.php">
+
+        <div class="container">
+            <h3 id="mid">Contact Me </h3>
+            <label for="username">Username</label>
+            <Input type="text" id="username" name="username" required>  
+            
+            <label for="email">Email</label>
+            <Input type="Email" id="email" name="email" required>  
+
+            <label for="pws">Password</label>
+            <Input type="passwordt" id="pws" name="psw" pattern (?=,*\d)required>    
+    
+            <input type="submit" value="Submit">
+        </div>
+
+        <div id="message">
+            <h3 id="mid">Enter message</h3>
+            <input id="myinput" value="some text..">
+            <button id="mybtn">submit</button>
+
+        </div>
+
+    </form>
+</body>
+</html>

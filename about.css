@@ -1,0 +1,15 @@
+
+body{
+
+}
+  /*style navbar*/
+.navbar li, ul{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    /* text-align: center; */
+  
+  }

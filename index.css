@@ -1,0 +1,28 @@
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+  }
+  p {
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+  } */
+
+  /*style navbar*/
+.navbar li, ul{
+  display: inline-block;
+   display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+  /* text-align: center; */
+
+}
