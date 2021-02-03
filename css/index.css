@@ -1,28 +1,37 @@
 
-body{
+
+body {
+  background-color: lightblue;
   margin: 0px;
   padding: 0px;
 }
 
-/* h1 {
-    color: blue;
-    font-family: verdana;
-    font-size: 300%;
-  }
-  p {
-    color: red;
-    font-family: courier;
-    font-size: 160%;
-  } */
-
-  /*style navbar*/
-.navbar li, ul{
-  display: inline-block;
-   display: flex;
-  justify-content: center;
+.navbar {
   list-style-type: none;
+  background: #e9aee9;
+  text-align: center;
+  padding: 0px;
   margin: 0px;
-  padding: 10px;
-  /* text-align: center; */
-
 }
+
+.navbar li{
+  display: inline-block;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: #fff;
+  width: 100px;
+  display: block;
+  padding: 15px;
+  font-size: 17px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar a:hover{
+  background: #000;
+  transition: 0.6s;
+}
+
+
+

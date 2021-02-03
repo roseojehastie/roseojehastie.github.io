@@ -1,48 +1,15 @@
 
 
- body {
-    background-color: lightblue;
-    margin: 0px;
-    padding: 0px;
-}
-
-h1 {
-    color: rgb(71, 21, 162);
-    text-align: center;
-}
-  
-p {
-    font-family: verdana;
-    font-size: 15px;
-}
-  
-/*  
-.navbar ul{
-  display: flex;
-  align-items: center;
-  display: inline-block;
-  justify-content: center;
-  list-style-type: none;
+body {
+  background-color: lightblue;
   margin: 0px;
-  padding: 10px; 
-  text-align: center; 
- 
-}  */
+  padding: 0px;
+}
 
-/* .navbar li, ul{
-
-  display: inline-block;
-   display: flex;
-  justify-content: center;
-  list-style-type: none;
-  margin: 0px;
-  padding: 20px;
-  } */
-  /* text-align: center; */
 
 .navbar {
   list-style-type: none;
-  background: #663366;
+  background: #e9aee9;
   text-align: center;
   padding: 0px;
   margin: 0px;
