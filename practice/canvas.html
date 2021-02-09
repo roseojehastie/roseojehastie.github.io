@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <divid="myCanvas">
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+    </canvas>
+
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.moveTo(0, 0);
+        ctx.lineTo(200, 100);
+        ctx.stroke();
+        </script>
+</div>
+
+<div>
+    <canvas id="myCanvas1" width="200" height="100" style="border:1px solid #000000;">
+    </canvas>
+
+    <script id="myCanvas1">
+        
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("4d");
+        ctx.beginPath();
+        ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+        ctx.stroke();
+        </script>
+</div>   
+
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+    Your browser does not support the HTML canvas tag.</canvas>
+    
+    <script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(95,50,40,0,2*Math.PI);
+    ctx.stroke();
+    </script> 
+    
+    <div>
+        <p>
+        <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+            Your browser does not support the HTML canvas tag.</canvas>
+            
+        <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.font = "30px Arial";
+            ctx.fillText("Hello World", 10, 50);
+            </script>
+            </p>
+    </div>
+
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        
+        // Create gradient
+        var grd = ctx.createLinearGradient(0, 0, 200, 0);
+        grd.addColorStop(0, "red");
+        grd.addColorStop(1, "white");
+        
+        // Fill with gradient
+        ctx.fillStyle = grd;
+        ctx.fillRect(10, 10, 150, 80);
+        </script>
+
+<p>Image to use:</p>
+<img id="farm-drones-africa" src="image/farm-drones-africa.jpg" alt="farm-drones-africa" width="220" height="277">
+
+<p>Canvas to fill:</p>
+<canvas id="myCanvas" width="250" height="300"
+style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML canvas tag.</canvas>
+
+<p><button onclick="myCanvas()">Try it</button></p>
+
+<script>
+function myCanvas() {
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  var img = document.getElementById("farm-drones-africa");
+  ctx.drawImage(img,10,10);
+}
+</script>
+
+<p>SGV Logo</p>
+<svg height="130" width="500">
+    <defs>
+      <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+        <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+    <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+    Sorry, your browser does not support inline SVG.
+  </svg>
+</body>
+</html>

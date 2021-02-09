@@ -1,71 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/portfolio.css">
     <title>Portfolio</title>
 </head>
+
 <body>
     <nav>
         <ul class="navbar">
             <li>
-                <a href="index.html" target="_blank">Home</a>
+                <a href="index.html" >Home</a>
             </li>
             <li>
-               <a href="about.html" target="_blank">About</a>
+                <a href="about.html" >About</a>
             </li>
             <li>
-                <a href="resume.html" target="_blank">Resume</a>
+                <a href="resume.html">Resume</a>
             </li>
             <li>
-                <a href="portfolio.html" target="_blank">Portfolio</a>
+                <a href="portfolio.html">Portfolio</a>
             </li>
             <li>
-                <a href="contact.html" target="_blank" >Contact</a>
+                <a href="contact.html" >Contact</a>
             </li>
         </ul>
     </nav>
 
-    <div>
-        <!--external css-->
-        <h1 id="port">Portfolio</h1>
 
-        <h2 class="title" >Quiz-App</h2>
+    <h1 id="port">Portfolio</h1>
 
-        <p>Quiz-App connects to MongoDB (database) via HTTP request and API Key
-            and quiz question are genertaed from Trivia website using API key.
-            The App uses intents as <br>clickling for registeration, login and to play
-            the quiz was build using Reactjs Node and MongoDB. The call occurs off the UI
-            thread using loader and populates the information<br> parse from Json response.
-        </p>
-       <img src = "./image/1beautiful-.webp"width="200" height="150" alt = "Quiz App">
-    </div>   
-    
+    <div class="port-container">
+        <div class="image container">
+            <img class="img" src="./image/1beautiful-.webp" width="300" height="400" alt="Quiz App">
+        </div>
+
+        <div class="content-container">  
+            <h2 class="title">Quiz-App</h2>
+            <p class="discreption">Quiz-App connects to MongoDB (database) via HTTP request and API Key
+                and quiz question are genertaed from Trivia website using API key.
+                The App uses intents as clickling for registeration, login and to play
+                the quiz was build using Reactjs Node and MongoDB. The call occurs off the UI
+                thread using loader and populates the information parse from Json response.
+            </p>
+        </div>
+    </div>
+
     <div>
-       <h2>Weather-App</h2>
-       <img src = "./image/cameo-island.jpeg"width="200" height="150" salt = "Weather App">
+        <h2 class="content-container">Weather-App</h2>
+        <img src="./image/cameo-island.jpeg" width="200" height="150" salt="Weather App">
     </div>
 
     <div>
         <h2>Dice Game</h2>
-    <img src = "./image/beautiful-web.p.webp"width="200" height="150" alt = "Dice Game">   
+        <img src="./image/beautiful-web.p.webp" width="200" height="150" alt="Dice Game">
     </div>
 
     <div>
         <h2>Calculator</h2>
-    <img src = "./image/flying-by-lake.webp" width="200" height="150" alt = "Calculator">
+        <img src="./image/flying-by-lake.webp" width="200" height="150" alt="Calculator">
     </div>
 
     <div>
         <h2>Top Trumps</h2>
-    <img src = "./image/peaceful-jpeg.webp" width="200" height="150" alt = "Top Trumps">
+        <img src="./image/peaceful-jpeg.webp" width="200" height="150" alt="Top Trumps">
     </div>
 
     <div>
         <h2>Top Trumps</h2>
-    <img src = "./image/wonderful.webp" width="200" height="150" alt = "App">
+        <img src="./image/wonderful.webp" width="200" height="150" alt="App">
     </div>
 
 </body>
+
 </html>
