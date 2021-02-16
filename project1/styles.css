@@ -1,0 +1,71 @@
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%; /* ==========tried 1200px, 100vh for differnt width*/
+}
+/*--------MENU-BAR---------*/
+.menu-bar {
+    background-color: red;
+    border-bottom: 1px red;
+   
+   
+}
+
+.nav-link{
+    font-size: 16px;
+    margin: 3px;
+    color: black!important;
+    font-weight: 400px;
+} 
+
+.navbar-nav{
+    text-align: left;
+     box-shadow: 5px;
+    /* margin: 20px; */
+}
+
+.menu-bar .navbar-toggler{
+    padding-right: 20px;
+    outline: none !important;
+    border: none !important;
+}
+
+  li a:hover {
+    background-color: white;
+    
+    
+  }
+
+  .nav-link:hover{
+    font-weight: 600px;
+    border-bottom: 1px solid white;
+  }
+ 
+  /*--==========END MENU-BAR============---*/
+
+  /*---=========CONTAINER2==============---*/
+
+.container2 {
+    background-color: red;
+    height: 30rem;
+    padding: .5rem;
+}  
+
+.container2{
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    text-align: center;
+}
+
+  /*--=========END CONTAINER2===========--*/
+  footer {
+    background-color: #f0e8e8;
+    padding: 2rem;
+  }

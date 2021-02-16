@@ -1,0 +1,21 @@
+
+
+/* -webkit-text-size-adjust: 100%;
+      font-size: 15px;
+      line-height: 1.5;
+      font-family: "Lato", sans-serif;
+      box-sizing: inherit;
+      display: block;
+      padding: 0.01em 16px;
+      opacity: 0.60;
+      text-align: center!important;
+      padding-top: 64px!important;
+      padding-bottom: 64px!important; */
+
+      body {
+        h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+        .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+        .fa-anchor,.fa-coffee {font-size:200px}
+      }
+
+      
