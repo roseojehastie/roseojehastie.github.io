@@ -15,18 +15,21 @@ body{
     max-width: 100%;
     width: 100%; /* ==========tried 1200px, 100vh for differnt width*/
 }
+
+.container {
+    width: 100%;
+}
 /*--------MENU-BAR---------*/
 .menu-bar {
-    background-color: red;
-    border-bottom: 1px red;
-   
+    background-color: rgb(221, 50, 50);
+    border-bottom: 1px  rgb(221, 50, 50); 
    
 }
 
 .nav-link{
     font-size: 16px;
     margin: 3px;
-    color: black!important;
+    color: white!important;
     font-weight: 400px;
 } 
 
@@ -49,7 +52,7 @@ body{
 
   .nav-link:hover{
     font-weight: 600px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px rgb(241, 236, 236);
   }
  
   /*--==========END MENU-BAR============---*/
@@ -57,9 +60,10 @@ body{
   /*---=========CONTAINER2==============---*/
 
 .container2 {
-    background-color: red;
+    background-color:   rgb(221, 50, 50);
     height: 30rem;
-    padding: .5rem;
+    padding: 3rem;
+    width: auto;
 }  
 
 .container2{
@@ -67,9 +71,18 @@ body{
     justify-content:center; 
     align-items: center;
     text-align: center;
+    color: white;
 }
 
 footer {
     background-color: #615a5a;
-    padding: 2rem;
+    padding: 4rem;
+    width: 100%;
+    color: white;
+  }
+
+  copyright{
+    padding: 4rem;
+    width: 100%;
+    color: #615a5a;
   }

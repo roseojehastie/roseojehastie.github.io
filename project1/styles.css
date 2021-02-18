@@ -11,8 +11,8 @@ body{
 }
 /*--------MENU-BAR---------*/
 .menu-bar {
-    background-color: red;
-    border-bottom: 1px red;
+    background-color: rgb(221, 50, 50);
+    border-bottom: 1px rgb(221, 50, 50);
    
    
 }
@@ -38,8 +38,6 @@ body{
 
   li a:hover {
     background-color: white;
-    
-    
   }
 
   .nav-link:hover{
@@ -52,7 +50,7 @@ body{
   /*---=========CONTAINER2==============---*/
 
 .container2 {
-    background-color: red;
+    background-color: rgb(221, 50, 50);
     height: 30rem;
     padding: .5rem;
 }  
@@ -62,10 +60,28 @@ body{
     justify-content:center; 
     align-items: center;
     text-align: center;
+    color: white;
 }
 
   /*--=========END CONTAINER2===========--*/
+  
+  /*--========= FOOTER =================*/
   footer {
     background-color: #615a5a;
-    padding: 2rem;
+    padding: 4rem;
+    width: 100%;
+    color: white;
   }
+   /*--========= END OF FOOTER =================*/
+   /*--==========COPYRIGHT====================--*/
+   copyright{
+    padding: 3rem;
+    width: 100%;
+    color: #615a5a;
+    display: flex;
+    display: inline-block;
+    justify-content:center; 
+    align-items: center;
+    text-align: center;
+  }
+  /*--==========END OF COPYRIGHT====================--*/
