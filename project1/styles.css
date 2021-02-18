@@ -1,9 +1,14 @@
 
-
-body{
+* {
+  box-sizing: border-box;
+ 
+}
+  
+body{ 
+  display: -webkit-flex;
     font-family: 'Lato', sans-serif;
     font-family: 'Raleway', sans-serif;
-    display: flex;
+    /* display: flex; */
     display: block;
     margin: 0 auto;
     max-width: 100%;
@@ -47,12 +52,14 @@ body{
  
   /*--==========END MENU-BAR============---*/
 
+
   /*---=========CONTAINER2==============---*/
 
 .container2 {
     background-color: rgb(221, 50, 50);
     height: 30rem;
     padding: .5rem;
+
 }  
 
 .container2{
