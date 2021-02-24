@@ -23,7 +23,7 @@ body{
 .nav-link{
     font-size: 16px;
     margin: 3px;
-    color: white!important;
+    color: white;
     font-weight: 400px;
 }  
 
@@ -95,11 +95,6 @@ li a:hover {
     color: white;
 }
 
-/* .copyright{
-    padding: 4rem;
-    width: 100%;
-    color: #615a5a;
-} */
 
 .super-text{
       /* font-family: lato; */
@@ -111,15 +106,6 @@ li a:hover {
     font-size: 20px;
     font-weight: bold;
 }
-/* .imgs {
-    margin: 10px 5px 10px 5px;
-    padding: 10px 5px 10px 5px; ; */
-    /* display: flex;
-    justify-content:center; 
-    align-items: center; 
-    text-align: center;
-    padding-top: 20px; */
-/* } */
 
  .card1 {
     display: flex;
@@ -133,15 +119,6 @@ li a:hover {
 .Portfolio {
     background-color: rgb(238, 240, 241);
 }
-
- 
-  @media only screen and (max-width: 600px) {
-     .super-text{
-        font-size: 40px;
-    } 
-/* @media only screen and (min-width: 768px){
-    .
-} */ */
 
  .footer, ul{
     display: flex; 
@@ -161,3 +138,5 @@ li a:hover {
 .card1-link {
     color: black;
 }
+ 
+  
