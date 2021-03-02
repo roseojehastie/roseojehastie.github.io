@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;    
+  }
+  body{
+      display: flex;
+      display: block;
+      font-family: raleway-bold;
+      font-family: monospace;
+      width: 100%;
+      height: 100vh; 
+      padding:0px;
+      margin: 0px;
+      color: rgb(68, 70, 73);
+  }
+  
+  .main-container{
+  /* background-color: coral; */
+  width: 100%;
+  height: 100vh;
+  }
+  ul.topnav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color:rgb(97, 97, 97);
+    }
+    
+    ul.topnav li {float: left;}
+    
+    ul.topnav li a {
+      display: block;
+      color: #f1f1f1;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    ul.topnav li a:hover:not(.active) {background-color: white;}
+    
+    
+    ul.topnav li a.active {background-color: rgb(97, 97, 97);}
+    
+  /* Change color on hover */
+  .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .about {
+        font-size: 33.3333px;
+        display: block;
+        height: 14px;
+        line-height: 14.6667px;
+        position: relative;
+        text-align: center;
+    }
+
+    
+ .one {
+      padding: 20px;
+      width: 100px;
+      display: inline-block;
+      align-items: center;
+      text-align: center;
+      background-color:rgb(68, 70, 73);
+      color: #f1f1f1;  
+  }
+
+  .two{
+    padding: 20px;
+      width: 100px;
+      display: inline-block;
+      align-items: center;
+      text-align: center;
+      background-color:rgb(68, 70, 73);
+      color: #f1f1f1;  
+      
+    }
+  .three {
+    padding: 20px;
+    width: 100px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    background-color:rgb(68, 70, 73);
+    color: #f1f1f1;  
+    }
+  
