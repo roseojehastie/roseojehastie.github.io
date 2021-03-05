@@ -12,18 +12,21 @@
       margin: 0px;
       line-height: 1.5;
   }
+
   /* =======main-container=======*/
   .main-container {
   width: 100%;
   height: 100vh;
   font-family: "Lato", sans-serif;
   }
+
  /* ========navigation-container========*/
   .navigation-container {
     background-color: #f44336;
     color: #fff;
     position: fixed;
     width: 100%;
+    height: 50px;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
   }
 
@@ -40,7 +43,7 @@
     display: block;
     color: #f1f1f1;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 20px;
     text-decoration: none;
   }
   
@@ -50,6 +53,7 @@
   ul.topnav li a.active {background-color: #fff;
       color: #000;  
   }
+
   .topnav li a.active:hover {
       background-color: gray ;
 
@@ -84,6 +88,7 @@
     height: 100vh;
     /* box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12); */
   }
+
   .banner {
     padding: 80px;
     align-items: center;
@@ -105,74 +110,72 @@
   .content-container{
     background-color: #fff;
     color: #000;
-    /* height: 100vh; */
     width: 100%;
-    margin: 10px, 0px;
+    align-content: center;
+    padding: 64px;
     
   }
 
 .lorem1 {
-  float: left;
+  float: left;;
   width: 70%;
   font-size: 15px;
-  padding-left: 64px;
-  padding-top: 64px;
-  
+  padding-left: 100px;
+  margin: 10px, 0px; 
+  color: rgb(117,117,117);
+  line-height: 1.5;
+
 }  
 
-.img1 ::after {
+.img1 ::after{
   float: right;
-  width: 30%;
+  width: 30%; 
+  padding-top: 150px;
+  
 }
 
 .img-1 {  
-  align-items: center;
   text-align: center;
-  color: rgb(244, 67, 54);
-  /* font-family: fontAwesome; */
-  padding-top: 64px; 
-  padding-bottom: 64px;   
+   align-content: center;
+   color: rgb(244, 67, 54);
+ 
 }
 
-:after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
 /* ========content2-container=========*/
   .content2-container{
     background-color: #f1f1f1;
     color: #000; 
     width: 100%;
-    line-height: 1.5;
-    margin: 10px, 0px;
+    /* text-size-adjust: 100%; */
+    /* line-height: 1.5; */
+  
   }
 
   .lorem2 {
-    float: right;
-    width: 70%;
-   align-content: center;
-    /* line-height: 22.5px; */
-    font-size: 15px;
-    line-height: 1.5;
-    padding-left: 64px;
-   
+  float: right;
+  width: 70%;
+  font-size: 15px;
+  padding-left: 64px;
+  padding-top: 100px;
+  margin: 10px, 0px; 
+  color: rgb(117,117,117);
+  line-height: 1.5;
+  
   }  
 
-.img2 ::afte{
+.img2 ::before {
   float: left;
   width: 30%;
-}
  
-.img-2 {  
-  align-items: center;
-  color: rgb(244, 67, 54); 
-  
-  /* font-family: fontAwesome; */
-  padding-top: 64px; 
-  padding-bottom: 64px;   
 }
+
+.img-2 {  
+  text-align: center;
+  color: rgb(244, 67, 54);
+  padding-top: 150px;
+     
+} 
 
   :after {
     content: "";
@@ -188,21 +191,49 @@
   h5 {
     font-size: 18px;
      font-weight: bolder;
+     width: 617.328px;
   }
  
   p {
    font-size: 15px;
+   width: 617.328px;
    
+  }
+
+  :after {
+    content: "";
+    clear: both;
+    display: table;
   }
   .quote-container {
     background-color: #000;
     color: #fff;
-    opacity: 0.60 ;
+    opacity: 0.60;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 64px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 64px;
   }
 
+  :after {
+    content: "";
+    clear: both;
+    display: table;
+  }
   .footer-container {
     background-color: #fff;
     color: #000;
+    line-height: 22.5px;
+    opacity: 0.6px;
+    height: 280px;
+    text-align: center;
+    padding-bottom: 64px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 64px;
   }
 
 
