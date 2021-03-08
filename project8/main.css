@@ -130,6 +130,7 @@ button:hover {background-color: #fff;
   width: 100%;
   /* height: 50vh; */
   background-image: repeat;
+  background-size: contain;
 }
 .quote-container {
       width: 100%;
