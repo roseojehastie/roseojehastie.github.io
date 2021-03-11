@@ -1,0 +1,78 @@
+
+*{
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    font-family: Raleway;
+    color: #747704;
+  
+}
+
+/* F8981C
+BCBBBB
+747704 */
+
+.main-container {
+    min-width: 800px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.region {
+    margin-bottom: 15px;
+}
+
+.header-container {
+    padding: 10px;
+    width: 100%;
+    border-bottom: 2px solid grey;
+   
+
+}
+
+.header-image {
+    display: inline-block;
+    width: 48%;
+}
+.header-image  > img{
+   vertical-align: middle;
+   width: 75px;
+
+}
+
+.header-title {
+ text-align: right;
+ display: inline-block;
+ width: 48%;
+ vertical-align: bottom;
+}
+
+.monet {
+    margin: 0 auto;
+    max-width: max-content;
+}
+
+.monet > img {
+  max-width: 100%;
+}
+
+      
+.featured-image {
+    width: 33%;
+    padding: 10px;
+  display: inline-block;
+}
+
+.resize-image {
+    margin: 0 auto;
+    max-width: max-content;
+
+}
+.resize-image > img {
+    max-width: 100%;
+    min-height: 200px;
+
+}
