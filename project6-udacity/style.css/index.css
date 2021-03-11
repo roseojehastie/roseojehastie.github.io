@@ -64,15 +64,25 @@ BCBBBB
     width: 33%;
     padding: 10px;
   display: inline-block;
+  text-align: center;
 }
-
+.featured-image >h3 {
+    margin-top: 10px;
+    font-size: 20pt;
+}
+ 
 .resize-image {
     margin: 0 auto;
     max-width: max-content;
 
 }
+
 .resize-image > img {
     max-width: 100%;
     min-height: 200px;
 
+}
+
+.featured-w-text {
+    text-align: left;
 }
