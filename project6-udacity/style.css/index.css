@@ -66,7 +66,7 @@ BCBBBB
   display: inline-block;
   text-align: center;
 }
-.featured-image >h3 {
+.featured-image > h3 {
     margin-top: 10px;
     font-size: 20pt;
 }
