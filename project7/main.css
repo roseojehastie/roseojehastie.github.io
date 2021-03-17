@@ -88,11 +88,6 @@
   line-height: 0.3px;  
 }
 
-/* .description {
-  font-weight: bold;
- 
-} */
-
 button {
   color: #fff;
     background-color: #000;
@@ -125,8 +120,8 @@ color: #000;
   padding: 10px;
   text-align: left;
 } 
-.resize {
- /* padding: 15px; */
+.resize-both {
+ padding: 35px;
 }
  /*--=====Footer=====---*/
 .footer {
