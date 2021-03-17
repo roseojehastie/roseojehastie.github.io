@@ -41,7 +41,9 @@ ul.topnav {
 
 }
   
-  ul.topnav li {float: left;}
+  ul.topnav li {float: left;
+ 
+}
   
   ul.topnav li a {
     display: block;
@@ -49,7 +51,7 @@ ul.topnav {
     text-align: center;
     padding: 12px 20px;
     text-decoration: none;
-
+    height: 50px;
   }
   
   ul.topnav li a:hover:not(.active) {background-color:#fff;
@@ -116,10 +118,10 @@ ul.topnav {
     background-color: #fff;
     color: #000;
     width: 100%;
-    padding-left: 50px;
-    margin: 5%;
-    /* align-content: center;
-    padding: 64px; */ 
+    padding-left: 50px, 50px;
+    /* margin: 5%; */
+    /* align-content: center;*/
+    padding: 64px;
 }
 
 .lorem1 {
@@ -163,7 +165,7 @@ ul.topnav {
     background-color: #f1f1f1;
     color: #000; 
     width: 100%;
-    margin: 5%;
+   
     
   }
 
@@ -186,10 +188,7 @@ ul.topnav {
   float: left;
   width: 30%;
   align-content: center;
-  /* padding: 0px 30px; */
-  align-content: center;
- 
- 
+
 }
 
 .img-2{  
