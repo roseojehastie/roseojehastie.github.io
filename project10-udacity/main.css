@@ -34,25 +34,26 @@ body {
 .header-container {
     display: flex;
     width: 100%;
-     padding: 10px;
-    margin-bottom: 15px;
+    padding: 10px;
+    margin: 15px;
     border-bottom: 2px solid grey;
+    height: 20vh;
 } 
 
  .header-image {
-    width: 48%;
+    width: 35%;
     text-align: left;
     display: inline-block;
     
 } 
 
 .header-image  > img{
-    vertical-align: middle;
-    width: 95px;
+vertical-align: middle;
+    width: 100px;
 }
 
  .header-title {
-    width: 48%;
+    width: 64%;
     text-align: right;
     display: inline-block;
     vertical-align: bottom;
@@ -60,7 +61,7 @@ body {
 
    h1 {
        font-weight: 100;
-       font-size: 40px;
+       font-size: 45px;
        line-height: 1.5px;
    }
    
@@ -100,6 +101,7 @@ body {
 .featured-work-container {
     width: 100%;
     padding: 10px;
+    padding-bottom: 50px;
 }
 .featured-work-image {
     width: 33%;
