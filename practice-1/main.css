@@ -1,0 +1,113 @@
+
+* {
+    box-sizing: border-box;
+}
+
+/* F8981C
+BCBBBB
+747704 */
+body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Raleway';
+    color: #BCBBBB;
+}
+
+.main-container {
+    /* display: flex; */
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header-container{
+    width: 100%;
+    height: 50vp;
+    display: block;
+    border-bottom: 2px solid grey;
+}
+
+.header-image {
+    display: inline-block;
+    width: 34%;
+    text-align: left;
+    padding: 0px;
+    padding-bottom: 5px;
+    
+}
+
+.header-image  > img{
+    vertical-align: middle;
+    width: 105px;
+}
+.header-title {
+    display: inline-block;
+    width: 64%;
+    text-align: right;
+}
+ /*----end header container----*/
+
+ /* ---- landing pahe ------*/
+.landing-container {
+    display: flex; 
+    width: 100%;
+    padding: 10px;
+      
+}
+
+.landing-img {
+    margin: 0 auto;
+    max-width: max-content;   
+   
+}
+
+.landing-img >img{
+    display: block;
+    max-width: 100%; 
+    max-height: auto;
+    
+}
+
+.featured-work-container {
+   width: 100%;
+    display: flex;
+    display: block;
+    padding: 10px;
+    
+   /* display: inline-block; */
+   /* display: flex; */
+}
+
+.featured-image {
+    width: 32%;
+    height: 30px;
+    display: inline-block;
+    /* padding: 5px; */
+}
+
+.featured-image > img{
+    margin: 0 auto;
+    max-width: max-content;
+
+}
+
+.featured-image > img {
+    max-width: 100%;
+    min-height: 200px;
+    padding-right: 5px;
+}
+
+.featured-image > h3{
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5px; 
+} 
+.featured-image > p{
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+}  
