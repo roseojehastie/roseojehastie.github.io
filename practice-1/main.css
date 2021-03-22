@@ -13,7 +13,7 @@ body {
     padding: 0px;
     margin: 0px;
     font-family: 'Raleway';
-    color: #BCBBBB;
+    color: #747704;
 }
 
 .main-container {
@@ -49,6 +49,9 @@ body {
     width: 64%;
     text-align: right;
 }
+h1 {
+    font-weight: 100;
+}
  /*----end header container----*/
 
  /* ---- landing pahe ------*/
@@ -77,6 +80,7 @@ body {
     display: flex;
     display: block;
     padding: 10px;
+   /* margin-right: 20px;  */
     
    /* display: inline-block; */
    /* display: flex; */
@@ -98,16 +102,22 @@ body {
 .featured-image > img {
     max-width: 100%;
     min-height: 200px;
-    padding-right: 5px;
+    padding-right: 11px;
+}
+.featured-text {
+    color: #BCBBBB;
+  font-weight: 700;
 }
 
 .featured-image > h3{
     text-align: center;
     font-weight: 400;
     line-height: 1.5px; 
+    color: #747704 ;
 } 
 .featured-image > p{
     font-size: 12px;
     font-weight: 100;
     text-align: center;
+    color: #747704 ;
 }  
