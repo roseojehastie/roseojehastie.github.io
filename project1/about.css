@@ -30,39 +30,39 @@ body {
 
 }
 
-/* Style the topnav links */
 
-.link1 {
-  list-style: none; 
-  display: inline;
+ul.topnav {
+  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
- 
+
 }
 
-.link1 a {
-float: left;
-color: #fff;
-padding: 14px 20px;
-text-decoration: none;
-height: 50px;
+ul.topnav li {float: left;
+
 }
 
-/* Change color on hover */
-.link1 a:hover {
-  background-color: #ddd; 
+ul.topnav li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 12px 20px;
+  text-decoration: none;
+  height: 50px;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #fff;
   color: #000;
 }
-/* --- active Change color on hover ---- */
-.link1 .active {
-background-color: white;
-color: #000;
 
+ul.topnav li a.active {background-color: #fff;
+    color: #000;  
 }
 
-.link1 .active:hover{
-background-color:  #ddd; 
+.topnav li a.active:hover {
+    background-color: #fff ;
 
 }
  /*--header---*/
@@ -73,12 +73,12 @@ background-color:  #ddd;
   font-size: 40px;
   line-height: 0.3px;
   display: block;
-  background-color: #67c41b;
+  background-color:  #f44336;
   padding: 80px;
   text-align: center;
   align-content: center;
   justify-content: center;
-  height: 50vh;
+  height: 70vh;
 }
 
 button {

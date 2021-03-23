@@ -20,9 +20,7 @@ body{
     height: 100vh;
     margin: 0;
     padding: 0px;
-   
-
-
+  
 }
 
  /* ========navigation-container========*/
@@ -96,7 +94,7 @@ ul.topnav {
   .banner-container {
     background-color: #f44336;
     color: #fff;
-    height: 50vh;
+    height: 70vh;
 }
 
   .banner {
@@ -122,7 +120,7 @@ ul.topnav {
     display: block;
     width: 100%;
     height:auto;
-    padding: 10px;
+    padding: 15px;
    
 }
 
@@ -135,12 +133,14 @@ ul.topnav {
     padding: 5px;
     text-align: left;
 }
+ /*=======end col-container========*/
 
+ /*=======image-container========*/
 .images-container {
     width: 100%;
-    height: 30vh;
+    height: 50vh;
     display: flex;
-    padding: 10px;
+    padding: 15px;
     
 }
 .images {
@@ -149,27 +149,9 @@ ul.topnav {
     display: block;
     margin: 5px; 
 }
+/*=======end image-container========*/
 
-.col-container1 {
-    display: flex;
-    display: block;
-    width: 100%;
-    height:auto;
-    padding: 10px;
-   
-}
-
-.col1 {
-    /* float: left; */
-    width: 20%;
-    height: 50vh;
-    display: flex;
-    display: inline-block;
-    padding: 5px;
-    text-align: left;
-}
-
-
+/*=======footercontainer========*/
 .footer {
     display: flex;
     display: block;
@@ -180,6 +162,7 @@ ul.topnav {
     width: 100%;
     font-weight: 900;
     border-radius: 1px solid  #555;
+    /*=======end footer-container========*/
   }
 
    /*--=====Copyright=====---*/
