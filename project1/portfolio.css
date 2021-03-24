@@ -35,15 +35,16 @@
 
   /*--=====navigation- link=====---*/
 
+  ul.topnav {
+    padding: 0px;
+  }
+
 .topnav li {
   float: left; 
   list-style: none; 
   
 }
-  ul.topnav {
-    padding: 0px;
-  }
-
+  
   ul.topnav li a {
     color: #f1f1f1;
     text-align: center;
@@ -72,29 +73,36 @@
  
 
  /*--=====Page-header=====---*/
-.page-header {
+.banner {
   width: 100%;
-  background-color: #880;
-  text-align: center;
-  align-content: center;
-  justify-content:center; 
-  align-items: center;
-  padding: 80px;
-  font-size: 30px;
+  background-color: #f44336;
   color: #fff;
-  font-weight: bolder;
-  line-height: 0.3px; 
-  height: 50vh; 
+   
+  /* height: 70vh;  */
+}
+
+.banner {
+    padding: 80px;
+    text-align: center;
+    align-items: center;
+    line-height: 30px;
+}
+
+.banner > h1 {
+   font-size: 64px;
+   font-weight: 900; 
 }
 
     /*--====button=====--*/
 button {
   color: #fff;
     background-color: #000;
-    padding: 12px 24px;
+    padding: 12px 24px; 
+    margin-top: 16px; 
     font-size: 18px;
     font-stretch: 100%;
-    margin-top: 16px, 16px; 
+    white-space: nowrap;
+   
 }
 
 button:hover{
