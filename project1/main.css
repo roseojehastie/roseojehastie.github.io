@@ -3,8 +3,8 @@
 *{
     box-sizing: border-box;    
   }
-  /* *::before, *:after */
   
+   /* =======body=======*/
 body{
       display: flex;
       padding:0px;
@@ -13,9 +13,9 @@ body{
       height: 100vh; 
       font-size: 16px;
       font-family:'Lato','Noto Sans JP','Oswald', 'Roboto', sans-serif;
-
   }
-  
+   /* =======body section=======*/
+
   /* =======main-container=======*/
 .main-container {
   width: 100%;
@@ -24,6 +24,7 @@ body{
   padding: 0px;
 
 }
+ /* =======end main-container=======*/
 
  /* ========navigation-container========*/
 .navigation-container {
@@ -45,7 +46,6 @@ ul.topnav {
 }
   
   ul.topnav li {float: left;
- 
 }
   
   ul.topnav li a {
@@ -67,13 +67,13 @@ ul.topnav {
 
   .topnav li a.active:hover {
       background-color: gray ;
-
   }
   
    .topnav a:hover {
     background-color: #fff;
     color: #000;
   }
+   /* =======end navigation-container=======*/
 
 /*========banner========*/
 
@@ -96,6 +96,7 @@ ul.topnav {
   font-weight: 900;
   font-size: 64px;
 }
+ /* =======end banner=======*/
 
 /*========button========*/
   button {
@@ -111,6 +112,7 @@ ul.topnav {
   button:hover {background-color: #fff;
     color: black;
   }
+   /* =======end banner=======*/
 
 
 /*=======content container========*/
@@ -119,44 +121,39 @@ ul.topnav {
     background-color: #fff;
     color: #000;
     width: 100%;
-    padding-left: 50px;
-    /* padding: 64px; */
+    display: flex;
+    display: inline-blocks;
+    padding: 64px;
+   
 }
 
 .lorem1 {
-  float: left;;
+  float: left;
   width: 70%;
-  font-size: 15px;
-  padding-top: 40px;
-  padding-bottom: 64px;
-  padding-left: 50x;
-  padding-right: 100px;
-  margin: 10px; 
+ /* padding-bottom: 64px;
+  padding-left: 50x;*/
+  padding-right: 100px; 
+  margin: 10px;
   color: rgb(117,117,117);
   line-height: 1.5;
   align-content: center;
 }  
 
-.img1 ::before{
-  float: right;
+
+.img-1  {
+ display: flex;
+ float: right;
   width: 30%; 
   align-content: center;
-  padding-bottom: 0px;
-
-}
-
-.img-1 {  
-  text-align: center;
-   color: rgb(244, 67, 54);
-   padding-top: 120px; 
-   align-content: center;
+  padding-top: 120px;
+  /* padding-right:100px ; */
  
-}
 
-::after {
-  content: "";
-  display: table;
-  clear: both;
+}
+.img1{
+ width: 150px;
+ height: 150px;
+   
 }
 
 /* ========content2-container=========*/
@@ -164,7 +161,8 @@ ul.topnav {
     background-color: #f1f1f1;
     color: #000; 
     width: 100%;
-    
+    display: flex;
+    display: inline-block;
   }
 
   .lorem2 {
@@ -182,55 +180,32 @@ ul.topnav {
  
 }  
 
-.img2 ::after{
-  float: left;
+.img-2 {
   width: 30%;
   align-content: center;
-
-}
-
-.img-2{  
-  text-align: center;
-  color: rgb(244, 67, 54);
   padding-top: 120px;
-  align-content: center;
-     
+  padding-left: 100px;   
 } 
-
-::after {
-  content: "";
-  display: table;
-  clear: both;
+ 
+.img2 {
+  width: 150px;
+  height: 150px;
+ 
 }
 
- h1 {
-    font-size: 36px;
-    font-weight: 400;
-    
-  }
-  h5 {
-    font-size: 18px;
-     font-weight: bolder;
-     /* width: 617.328px; */
-  }
- 
-  p {
-   font-size: 15px;
-   /* width: 617.328px; */
+  .text1 {
+   font-size: 16px;
+   font-weight: bolder;
    
   }
 
-  ::after{
-    content: "";
-    display: table;
-    clear: both;
-  }
   .quote-container {
+    display: block;
     background-color: #000;
     color: #fff;
     opacity: 0.60;
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 100;
     text-align: center;
     padding-bottom: 64px;
     padding-right: 16px;
@@ -238,11 +213,7 @@ ul.topnav {
     padding-top: 64px;
   }
 
-  ::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+
   .footer-container {
     background-color: #fff;
     color: #000;
