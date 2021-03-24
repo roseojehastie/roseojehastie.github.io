@@ -131,18 +131,19 @@ button:hover {
 /*---resume section*/
 
 .resume-container {
+  display: flex;
   width: 100%;
   height: 100vh;
-  padding: 10%;
+  padding: 5%;
   margin: 0px;
 
 }
 .column-resume1 {
   width: 20%;
   float: left;
-  padding: 20px;
+  padding: 5px;
   height: 90vh;
-  padding:  5%, 5%;
+  /* padding:  50%, 5%; */
   margin: 0px;
   
 }
@@ -155,11 +156,13 @@ button:hover {
 
 /*---- content2-container ----*/
 .content2-container{
+  display: flex;
+  display: inline-block;
   background-color: #f1f1f1;
   color: #000; 
   width: 100%;
   height: 100vh;
- padding: 3%;
+  padding: 3%;
  
   
 }
@@ -174,79 +177,80 @@ button:hover {
   color: rgb(117,117,117);
   line-height: 20px;
   align-content: center;
-  height: auto;
+  height: 100vh;
 
 }  
 
-.img2 {
+.img-2 {
   float: left;
   width: 30%;
   align-content: center;
   align-content: center;
-
+ 
 }
 
-.img-2{  
-text-align: center;
-color: rgb(244, 67, 54);
-padding-top: 120px;
-width: 500px;
-padding-left: 50px;
-height: 150px;
-
+.img2{  
+width: 250px;
+height: 250px;
+padding: 50px; 
+padding-top: 100px;
 }
 .text2 {
   font-weight: bolder;
 }
 /* ----end content2-container ----*/
 
-/* ----quote container----*/
+/*--=====Footer==*/
 .quote-container {
-    width: 100%;
-    float: left;
-    background-color: #000;
-    color: #fff;
-    opacity: 0.60;
-    font-size: 24px;
-    font-weight: 400;
-    text-align: center;
-    padding-bottom: 64px;
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-top: 64px;
-  } 
-  /* ----end quote container----*/
-
-  /* ----footer container----*/
-.footer-container {
+  display:flex;
+  display: block;
   width: 100%;
+  /* float: left; */
+  background-color: #000;
+  color: #fff;
+  opacity: 0.60;
+  /* font-size: 4px; */
+  font-weight: 400;
+  text-align:center;
+  padding-bottom:30px;
+  padding-right:10px;
+  padding-left:10px;
+  padding-top: 30px;
+} 
+/* ----end quote container----*/
+
+
+.social-container {
+  /* display: flex; */
+  /* display: block; */
+    background-color: #fff;
+    color: #000;
+    /* line-height: 22.5px; */
+    opacity: 0.6px;
+    height: 120px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 30px;
+  }
+.social{
   float: left;
-  background-color: #fff;
-    color:#000; 
-    opacity: 0.60;
-    font-size: 24px;
-    font-weight: 400;
-    padding-bottom: 64px;
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-top: 64px;
-}
-/* ---- end footer container----*/
-
-/* ----social container----*/
-.container-social {
-  float: left; 
+  list-style: none;
+  padding: 3px;
 }
 
-.social {
-   list-style: none;
-   display: inline-block ;
-}
-/* ----end social container----*/
-
-/* ----copyright container----*/
-.copyright {
+.copyright-container {
   float: right;
+  /* padding-right: 5px; */
 }
 
+
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
 
