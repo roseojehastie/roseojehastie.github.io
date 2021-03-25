@@ -97,6 +97,13 @@ h1 {
     padding: 5px;
 }
 
+.featured-image-left {
+    padding-left: 0px;
+}
+
+.featured-image-right {
+    padding-right: 0px;
+}
 /* .featured-image > img{
     margin: 0 auto;
     max-width: max-content;
@@ -105,8 +112,8 @@ h1 {
 }  */
 
 .featured-image > img {
-    max-width: 100%;
-    min-height: 150px;
+    width: 100%;
+    height: 150px;
    
 }
 
