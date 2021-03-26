@@ -144,11 +144,13 @@ button:hover {
   /* padding:  50%, 5%; */
   margin: 0px;
   
+  
 }
 .iconn {
   width: 90px;
   height: 90px;
   align-items: center;
+  
 }
 /*----  end resume container----*/
 
@@ -208,7 +210,7 @@ padding-top: 100px;
   color: #fff;
   opacity: 0.60;
   /* font-size: 4px; */
-  font-weight: 400;
+  font-weight: 100;
   text-align:center;
   padding-bottom:30px;
   padding-right:10px;
