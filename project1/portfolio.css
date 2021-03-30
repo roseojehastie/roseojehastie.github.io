@@ -119,7 +119,7 @@ color: #000;
   
 }
 .column{
-   display: inline-block;
+   /* display: inline-block; */
   /* float: left;  */
   width: 25%;
   text-align: left;
