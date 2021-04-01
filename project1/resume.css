@@ -112,9 +112,9 @@ ul.topnav {
     color: black;
   }
 
-/*========banner========*/
+/*========end - banner========*/
 
-/* -----END NEW ----*/
+/* -----content container ----*/
 .content-container {
   width: 100%;
   display: block;
@@ -136,7 +136,9 @@ ul.topnav {
 .resize-both {
  padding: 35px;
 } 
- /*--=====Footer==*/
+/* ----end content container----*/
+
+/* ----quote container----*/
 .quote-container {
   display: flex;
   display: block;
@@ -157,6 +159,8 @@ ul.topnav {
 } 
 /* ----end quote container----*/
 
+
+/* ----social container----*/
 .social-container {
   background-color: #fff;
   color: #000;
@@ -178,14 +182,16 @@ padding: 3px;
 padding-top: 30px;
 padding-bottom: 30px
 }
+ /* ----end social container----*/
 
+ /* ----copy right container----*/
 .copyright {
 float: right;
 padding-top: 30px;
 padding-bottom: 30px;
 padding-right: 25px;
 }
-
+ /*--====== end copyright==*/
 
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
