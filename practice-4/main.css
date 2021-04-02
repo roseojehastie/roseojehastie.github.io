@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    
+  }
+  
+  /*----main container---*/
+  .main-container {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+  
+  }
+  
+  /* Style the top navigation bar */
+  .topnav-container {
+    background-color: #f44336;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    padding-bottom: 10px;
+    border-bottom: 1px rgb(241, 236, 236); 
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    
+  }
+  
+  ul.topnav {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+  
+  }
+  
+  ul.topnav li {float: left;
+  
+  }
+  
+  ul.topnav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    height: 50px;
+  }
+  
+  /* ---Change color on hover ---- */
+  ul.topnav li a:hover:not(.active) {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  ul.topnav li a.active {background-color: #fff;
+      color: #000;  
+  }
+  
+  .topnav li a.active:hover {
+      background-color: #fff ;
+  
+  }
+  
