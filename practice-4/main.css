@@ -68,4 +68,43 @@
       background-color: #fff ;
   
   }
+  /* -----banner-----*/
+.banner{
+    width: 100%;
+    background-color: #f44336;
+    color: #fff;
+    /* height: 70vh; */
+  }
+  
+  .banner {
+    padding: 80px;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+         
+  }
+  
+  .banner > h1 {
+  font-weight: 900;
+  font-size: 64px;
+  }
+  /* ----end banner container----*/
+  
+  /* ----button---- */
+  button {
+    color: #fff;
+    background-color: #000;
+    padding: 12px 24px;
+    margin-top: 16px; 
+    font-size: 18px;
+    font-stretch: 100%;
+    white-space: nowrap;
+  
+  }
+  
+  button:hover {
+    background-color: #fff;
+    color: black;
+  }
+  /* ----end banner container----*/
   
