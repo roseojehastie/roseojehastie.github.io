@@ -114,7 +114,7 @@ color: #000;
 .content-container {
   width: 100%;
   display: flex;
-  ;
+  
   /* padding: 15px; */
   
 }
@@ -130,10 +130,13 @@ color: #000;
 .column >img {
     width: 200px;
     height: 250px;
-    padding: 15px;
+    padding-top: 15px;
     align-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    align-items: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* margin-left: auto;
+    margin-right: auto; */
     display: block;
 }
 .column > h2 {
@@ -141,7 +144,8 @@ color: #000;
 }
 
 .column >p {
-    text-align: center;
+    text-align: left;
+    padding: 10px;
 }
 
   
