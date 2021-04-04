@@ -9,7 +9,7 @@
     width: 100%;
     height: 100vh;
     display: flex;
-    display: block;   
+    /* display: block;    */
     
   }
 
@@ -117,26 +117,77 @@ ul.topnav {
 /* -----content container ----*/
 .content-container {
   width: 100%;
-  display: block;
+  display: inline-block;
   display: flex;
 }
 .large{
   width: 70%;
   float: right;
   padding: 10px;
-  
-  text-align: left;}
-
+  justify-content: center;
+  text-align: left;
+ 
+}
  .small{
   width: 30%;
   float:left;
   padding: 10px;
   text-align: left;
+  justify-content: center;
 } 
 .resize-both {
  padding: 35px;
 } 
 /* ----end content container----*/
+
+/* Create five equal columns that floats next to each other */
+
+.column-container{
+  display: flex;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  /* padding: 5%;
+  padding: 20px; */
+  padding:  3%;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px
+
+}
+/*---resume section*/
+
+.resume-container {
+  display: flex;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+
+}
+.column-resume1 {
+  width: 33%;
+  float: left;
+  padding: 5px;
+  height: 100vh;
+  /* padding:  50%, 5%; */
+  margin: 0px;
+  /* display: block; */
+  
+  
+}
+.iconn {
+  width: 90px;
+  height: 90px;
+  align-items: center;
+  
+}
+/*----  end resume container----*/
+
 
 /* ----quote container----*/
 .quote-container {
@@ -151,10 +202,10 @@ ul.topnav {
   font-weight: 100;
   text-align:center;
   align-content: center;
-  padding-bottom:64px;
-  padding-right:16px;
-  padding-left:16px;
-  padding-top: 64px;
+  padding-bottom:64px; 
+  /* padding-right:16px; */
+  /* padding-left:16px; */
+  padding-top: 64px; 
 
 } 
 /* ----end quote container----*/
@@ -162,6 +213,7 @@ ul.topnav {
 
 /* ----social container----*/
 .social-container {
+  display: block;
   background-color: #fff;
   color: #000;
   /* line-height: 22.5px; */
