@@ -122,8 +122,9 @@ color: #000;
    /* display: inline-block; */
   /* float: left;  */
   width: 25%;
-  text-align: left;
+  text-align: center;
   align-items: center;
+ 
   
 }
 
@@ -133,19 +134,22 @@ color: #000;
     padding-top: 15px;
     align-content: center;
     align-items: left;
-    padding-right: 15px;
+    justify-content: center;
+    /* padding-right: 15px; */
     padding-left: 15px;
     /* margin-left: auto;
     margin-right: auto; */
     display: block;
 }
 .column > h2 {
- text-align: center;   
+ text-align: center; 
+ justify-content: center;  
 }
 
 .column >p {
     text-align: left;
     padding: 10px;
+    justify-content: center;
 }
 
   
