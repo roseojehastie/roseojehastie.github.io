@@ -114,6 +114,8 @@ color: #000;
 .content-container {
   width: 100%;
   display: flex;
+  padding: 15px;
+
   
   /* padding: 15px; */
   
@@ -135,10 +137,10 @@ color: #000;
     align-content: center;
     align-items: left;
     justify-content: center;
-    /* padding-right: 15px; */
+    padding-right: 15px;
     padding-left: 15px;
-    /* margin-left: auto;
-    margin-right: auto; */
+    margin-left: auto;
+    margin-right: auto;
     display: block;
 }
 .column > h2 {
@@ -148,8 +150,11 @@ color: #000;
 
 .column >p {
     text-align: left;
-    padding: 10px;
-    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    /* justify-content: center; */
 }
 
   
