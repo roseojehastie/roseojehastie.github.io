@@ -11,30 +11,44 @@ body {
     padding: 0px;
     margin: 0px;
     font-family: 'Lato','Raleway', sans-serif;
-    color: #292920;
+    color: #292920; 
 }
+
 .main-container {
     width: 100%;
     height: 100%;
     background-color: burlywood;
-    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0px;
+    position: relative;
+    z-index: 1;
+    font-size: 10px;
+    height: 100%;
+    line-height: 1.5;
+
    
 }
 
-.wrapper{
-    width: 50%;
-    margin-top: 0px;
-    margin-left: 25%;
+ .wrapper{
+    /* display: flex;*/
+    display: block; 
+    width: 301px ;
     height: 100%;
+    font-size: 16px;
+    height: 100%;
+    line-height: 1.5;
+   /* margin-top: 0px;
+    margin-left: 25%;
+    margin-right: 25%;
     align-content: center;
+    text-align: center;*/
     background-color: rgb(160, 106, 25);
-    text-align: center;
-}
-.wrapper{
-    
-}
+} 
 
+h1, h2 {
+    font-weight: 100;
+}
 ul {
     list-style: none;
 }
