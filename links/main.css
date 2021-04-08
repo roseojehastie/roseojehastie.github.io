@@ -26,8 +26,10 @@ body {
     font-size: 10px;
     height: 100%;
     line-height: 1.5;
+    background-color: #E39C9C; 
+    
     /* overflow-y: hidden; */
-    overflow-x: hidden;
+  
    
 }
 
@@ -39,12 +41,16 @@ body {
     font-size: 16px;
     line-height: 1.5;
     margin-top: 50px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 30%; 
+    margin-right: 25%; 
     align-content: center;
     text-align: center;
+    align-items: center;
     background-color: #E39C9C; 
     overflow-x: hidden;
+    /* overflow-y: hidden; */
+   
+   
 } 
 
 .wrapper {
@@ -54,9 +60,9 @@ body {
     justify-content: center;
     position: relative;
     color: #4d4d4f;
-    /* background-color: #E39C9C;  */
-} 
-
+    box-shadow: 4px, solid #c96a6a;
+    
+}
 
 img {
     width: 220px;
@@ -71,11 +77,8 @@ h1, h2 {
 }
 ul {
      list-style: none;
-    /*display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-    width: 100px;
-    color: #4d4d4f;
-    background-color: #E39C9C; */
+}
+
+.button {
+
 }
