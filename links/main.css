@@ -72,13 +72,30 @@ img {
     margin: 20px 0;
     position: relative;
 }
+
 h1, h2 {
     font-weight: 100;
 }
-ul {
-     list-style: none;
+
+li {  font-size: 22px;
+      line-height: 29px ;
+      display: block;
+      text-decoration: none;
+    
+   
 }
 
-.button {
+ul {
+     list-style: none;
+    
+}
+
+button {
+    border-left-color:  fuchsia;
+    
+    /* border-bottom: 1px; */
+    padding: 20px;
+    width: 166px;
+    
 
 }
