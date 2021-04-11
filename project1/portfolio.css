@@ -114,57 +114,46 @@ color: #000;
 .content-container {
   width: 100%;
   display: flex;
-  padding: 15px;
-
-  
-  /* padding: 15px; */
+  padding: 25px;
   
 }
+
 .column{
-   /* display: inline-block; */
-  /* float: left;  */
   width: 25%;
   text-align: center;
   align-items: center;
- 
+  justify-content: center;
+  padding-bottom: 40px;
   
 }
 
 .column >img {
     width: 200px;
     height: 250px;
-    padding-top: 15px;
-    align-content: center;
-    align-items: left;
-    justify-content: center;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
+    padding: 50px;
+    /* align-content: center;
+    /* justify-content: center; */ 
+    /* padding-right: 25px;
+    padding-left: 25px; */
+    margin-left: auto; 
     margin-right: auto;
     display: block;
 }
+
 .column > h2 {
  text-align: center; 
  justify-content: center;  
+
 }
 
 .column >p {
-    text-align: left;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
+    /* text-align: left; */
+    /* padding-left: 24px; */
+   padding-right: 30px;
+     padding-bottom: 30px;
     text-align: center;
     /* justify-content: center; */
 }
-
-  
- /* Clear floats after the columns */
- /* .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  } */
-
 
   .quote-container {
     display: block;
@@ -203,7 +192,6 @@ color: #000;
   float: right;
 }
 
- 
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column.side, .column.middle {
