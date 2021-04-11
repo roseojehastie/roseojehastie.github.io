@@ -11,7 +11,7 @@ body {
     padding: 0px;
     margin: 0px;
     font-family: 'Lato','Raleway', sans-serif;
-    color: #292920; 
+    /* color: #292920;  */
     font-size: 16px;
    
     
@@ -80,6 +80,7 @@ img {
     flex-direction: column;
     justify-content: center;
     /* width: 100%; */
+    white-space: nowrap;
 }
 
 h1  {
@@ -113,8 +114,7 @@ li {  font-size: 22px;
 li, a{
     text-decoration: none;
     color: #4D4D4F;
-   
-    
+    line-height: 44px; 
 }   
 
  ul {
@@ -122,26 +122,30 @@ li, a{
      margin: 0px;
      align-content: center;
      align-items: center;
+     
 }         
 
  
 button{   
+    display: block;
     width: 180px;
     background-color:  #E39C9C;
-     /* margin: 10px;  */
-    border-right: 2px solid #181804;
-    border-bottom: 2px solid  #181804; 
-    border-top: 2px solid  #181804;  
-    border-left: 2px solid #181804; 
- 
-} 
- /* button {
-    padding-top: 35px; 
-    padding-bottom: 15pxs; */
-    /* flex-direction: column; */
-    /* justify-content: center;} */
-   
+     margin: 0px; 
+    padding: 15px 0;
+    border-bottom: 1px solid  #181804; 
+    position: relative;
+  } 
+  
+  button:first-child{   
+    display: block;
+    font-size: 16px;
+    /* background-color:  #E39C9C; */
+    margin: 0px; 
+    padding: 15px 0;
+    border-top: 1px solid  #181804; 
+    position: relative;
 
+  }  
 
  .button {
     display: flex;
@@ -150,6 +154,7 @@ button{
     flex-direction: column; 
     justify-content: center;
     align-items: center;
+    
  }   
   
     
