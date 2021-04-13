@@ -77,10 +77,10 @@ img {
 }
 
 h1  {
-    font-weight: 300;
+    font-weight: 500;
     color: #4D4D4F;
     height: 200;
-    font-size: 20px;
+    /* font-size: 20px; */
     font-family: montserrat, sans-serif;
     flex-direction: column;
     justify-content: center
