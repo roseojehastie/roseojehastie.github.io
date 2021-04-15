@@ -148,6 +148,14 @@ button{
     justify-content: center;
     align-items: center;
     
- }   
+ } 
+ .copyright-container {
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 5px;
+    background-color: #E39C9C;;
+
+     
+ } 
   
     
