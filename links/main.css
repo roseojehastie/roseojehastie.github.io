@@ -57,7 +57,6 @@ body {
     align-content: center;
     align-items: center; 
     
-
 }
 
 img {
@@ -95,11 +94,8 @@ h2, p, a {
 }
 
 li {  font-size: 22px;
-      /* line-height: 29px ; */
       text-decoration: none;
-      /* margin: 10px; */
-      /* background-color:  #E39C9C; */
-      padding-top: 20px;    
+      padding-top: 20px 20px;    
 }
 
 li, a{
@@ -121,9 +117,9 @@ button{
     display: block;
     width: 180px;
     background-color:  #E39C9C;
-     margin: 0px; 
-    /* padding: 15px 0; */
-    position: relative;
+     margin: auto; 
+    padding: 0px;
+    /* position: relative; */
     border: none;
   } 
   
@@ -133,38 +129,32 @@ button{
     align-items: center;
     flex-direction: column; 
     justify-content: center;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
     
  } 
 
  button{   
     font-size: 16px;
     background-color:  #E39C9C; 
-    margin: 0px; 
     padding: 15px 0;
-    position: relative; 
+   /* position: relative;  */
 }
 
 .button button:first-child{
     border-top: 1px solid  #181804; 
-    margin-top: 20px;
-    margin-bottom: 25px;
-    border-right: 1px solid  #181804;
-    padding-right: 20px;
-    margin-left:  1px solid  #181804; 
 
 }
-
 
 button{
     border-right: 1px solid  #181804; 
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
+   
+
 }
+
 button{
     border-left: 1px solid  #181804; 
-    margin-top: 20px;
-    margin-bottom: 20px;
+   
 }
 
 /* .button button:last-child{
@@ -175,11 +165,18 @@ button{
 } */
 button {
     border-bottom: 1px solid  #181804;
-    margin-top: 20px opx;
-    padding: 20px 0;
-   
+  
+
+  
    
 }
+
+/* button {
+    margin-inline: 20px;
+    margin-trim: 50px;
+    margin-right: auto;
+    margin-right: auto;
+} */
 
  .footer {
     width: 100%;
@@ -190,13 +187,19 @@ button {
  }
 
  .fav {
+    width: 50%;
+    float: left;
     text-align: left;
-    display: inline-block;
-    padddin
+    padding-left: 15px;
+  
+
  }
  .copyright {
+     float: right;
+     width: 50%;
     text-align: right;
-    display: inline-block;
+    padding-right: 15px;
+   
  }
   
     
