@@ -70,3 +70,84 @@ margin: 0px;
 background-color: #fff;
  color: #000;
 }
+
+/*-- header--*/
+.page-header{
+  display:flex;
+  display: block;
+  color: #f1f1f1;
+  height: 60vh;
+  background-color:  #f44336;
+
+}
+
+.page-header{
+  padding: 80px;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  line-height: 30px;
+
+}
+.page-header > h1 {
+  font-weight: 900;
+  font-size: 64px;
+  }
+
+button {
+  font-size: 18px;
+  color:  #fff;
+  background-color: black;
+  padding: 16px 20px;
+ 
+}
+button:hover{
+  background-color:   #fff;
+  color: #000;
+}
+ 
+
+
+/*content container--*/
+
+.content-container{
+  display: block;
+  display: flex;
+  float: left;
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  height: 100vh;
+  padding: 25px;
+  margin: 10px;
+
+}
+
+
+.quote {
+  width: 100px;
+  float: left;
+  padding-left: 15px;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  line-height: 30px;
+  color: #fff;
+  background-color: rgb(31, 30, 30);
+ 
+
+ 
+}
+.copyright {
+  float: left;
+  padding-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 25px;
+  
+}
