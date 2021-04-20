@@ -1,3 +1,6 @@
+
+::before
+::after
 * {
     box-sizing: border-box;
   }
@@ -5,40 +8,62 @@
   body {
     display: flex;
     display: block;
-    margin: 0px;
-    padding: 0px;
     width: 100%;
     height: 100vh;
-    
+     margin: 0px;
+    padding: 0px;
   }
+
   .main-container {
       width: 100%;
       height: auto;
-      padding: 0px;
+      padding: 30px;
+      margin: 0px;
   }
   .content-container{
       width: 100%;
       height: auto;
-      padding: 10%;
-      padding-top: 2%;
+      padding: 40%;
+      padding-top: 10px;
   }
 
+  .img-p {
+    float: left;
+    width: 90%;
+    text-align: left;
+    display: flex;
+    display: block;
+     
+}
   .img1 {
         width: 24px;
         height: 24px;
         object-fit: cover;
         border-radius: 50%;
         margin: 20px 0;
-       
+        float: left;
+        padding-right: 20px;
+
+      
+        
     }
-    .img-p {
-        width: 100%;
-        display: flex;
-        display: inline-block;
-       align-self: bottom;
+    
+
+    .img2 {
+        width: 98%;
+        float: left;
+    }
+    .img-2 {
+         width: 98%;
+        height: 70%; 
     }
 
-    p {
-     align-items: baseline;
+
+    .p1 {
+        width: 98%;
+        float: left;
+        display: flex;
+        display: block;
     }
+    
        
