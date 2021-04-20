@@ -97,7 +97,7 @@ h2, p, a {
 
 li {  font-size: 22px;
       text-decoration: none;
-      padding-top: 20px 20px;    
+         
 }
 
 li, a{
@@ -119,49 +119,46 @@ button{
     display: block;
     width: 180px;
     background-color:  #E39C9C;
-     margin: auto; 
+    margin: auto; 
     padding: 0px;
     position: relative;
-    border: none;
+    border-top: 1px solid  #181804; 
   } 
   
- .button {
+ /* .button {
     display: flex;
     align-content: center;  
     align-items: center;
     flex-direction: column; 
     justify-content: center;
      margin-top: auto;
-    /* margin-bottom: 20px;  */
+    /* margin-bottom: 20px; }  */
      
- } 
+
 
  button{   
     font-size: 16px;
     background-color:  #E39C9C; 
     padding: 15px 0;
-   /* position: relative;  */
+    position: relative; 
+    margin: 10px;
+    border-radius: 5px;
 
 }
 
-.button button:first-child{
+/* .button button:first-child{
     border-top: 1px solid  #181804; 
-   
-    
+ 
+} */
 
-}
-
-button{
+/* button{
     border-right: 1px solid  #181804; 
-    /* height: 90px; */
-   
-
+    height: 90px;   
 }
-
 button{
     border-left: 1px solid  #181804; 
-    /* height: 90px; */
-}
+   
+} */
 
 /* .button button:last-child{
     border-bottom: 1px solid  #181804;
@@ -169,10 +166,10 @@ button{
    /* padding: 20px;
     padding-bottom: none;
 } */
-button {
+/* button {
     border-bottom: 1px solid  #181804;
    
-}
+} */
 
 
  .footer {
