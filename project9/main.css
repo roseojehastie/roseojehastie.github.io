@@ -82,6 +82,7 @@ background-color: #fff;
 }
 
 .page-header{
+  height: 70vh;
   padding: 80px;
   align-items: center;
   text-align: center;
@@ -122,7 +123,7 @@ button:hover{
 .column {
   float: left;
   width: 20%;
-  height: 100vh;
+  height: 80vh;
   padding: 25px;
   margin: 10px;
 
@@ -130,21 +131,24 @@ button:hover{
 
 
 .quote {
-  width: 100px;
+  width: 100%;
   float: left;
-  padding-left: 15px;
+ 
+  padding: 35px;
   align-items: center;
   text-align: center;
   align-content: center;
   line-height: 30px;
   color: #fff;
-  background-color: rgb(31, 30, 30);
+  background-color: rgb(85, 79, 79);
  
 
  
 }
 .copyright {
   float: left;
+  width: 100%;
+  text-align: center;
   padding-right: 10px;
   padding-top: 30px;
   padding-bottom: 30px;
