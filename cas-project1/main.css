@@ -95,29 +95,34 @@ li {
  
 }
 
-.car {
-    /* float: left; */
-    width:50%;
+.visual-1 { 
     height: auto;
     display: flex;
     align-items: center;
     text-align: center;
-    display: inline-block;
-   
+    display: inline-block; 
+    flex: 50;
 }
 
 img {
-    width: 320px;
-    height: 240px;
+    width: 500px;
+    height: 300px;
+    padding-right: 30px;
 }
-video{
-    width: 320px;
-    height: 240px;
-}
-  /*---======== visual section with car & video=======----*/
 
-/*---- end video---*/
-/*----=========== end visual section ===========----*/
+iframe{
+    width: 500px;
+    height: 300px;
+    padding: 0px;
+} 
+h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #525f7f;
+
+}
+  /*---======== visual section ========----*/
+
 
 /*----========== footer section ========----*/
 .footer  {
@@ -156,13 +161,18 @@ video{
     .section1 {
         height: 10px;
     }
-    @media screen and (max-width: 700px){
+    @media screen and (max-width: 500px){
         .visual{
             width: 100%; 
             display: flex;
             display: block;
             flex-direction: column;
         }  
+          /*.car:nth-child(2) {
+            border-left: 1px solid slateblue; 
+            border-top: 1px solid rgb(184, 176, 233);
+        } */
+
         }
 
         ul {
