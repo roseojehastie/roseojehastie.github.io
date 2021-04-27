@@ -15,7 +15,9 @@ body {
     font-size: 16px;
     
 }
+/*---=== end body ===---*/
 
+/* ---=== main container ===--- */
 .main-container {
     width: 100%;
     height: 100%;
@@ -28,10 +30,12 @@ body {
     background-color: #E39C9C; 
    
 }
+/* ---=== end main container ===--- */
 
+/* ---=== wrapper container ===--- */
  .wrapper{
     width: 30% ;
-    height: auto;
+    height: 80%;
     font-size: 16px;
     margin-top: 60px;
     margin-left: auto; 
@@ -62,7 +66,9 @@ img {
     margin: 20px 0;
     position: relative;
 }
+/* ---=== end wrapper container ===--- */
 
+/* ---=== header container ===--- */
 .header {
     display: flex; 
     flex-direction: column;
@@ -87,7 +93,9 @@ h2, p, a {
     color: #4D4D4F;
    
 }
+/* ---=== end header container ===--- */
 
+/* ---=== nav-link container ===--- */
 li {  font-size: 22px;
       text-decoration: none;
          
@@ -127,7 +135,9 @@ button{
     margin: 10px;
     border-radius: 5px;
 }
+/* ---=== end nav-link container ===--- */
 
+/* ---=== footer container ===--- */
  .footer {
     width: 100%;
     display: flex;
@@ -152,5 +162,6 @@ button{
     padding-right: 15px;
    
  }
+ /* ---=== end footer container ===--- */
   
     
