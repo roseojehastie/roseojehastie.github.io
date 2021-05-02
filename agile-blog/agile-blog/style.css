@@ -92,5 +92,11 @@
         float: left;
         width: 100%;
         text-align: center;
-        background-color: purple;
-    }   
+        background-color: rgb(119, 107, 119);
+    }  
+.copyright-container {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+}
