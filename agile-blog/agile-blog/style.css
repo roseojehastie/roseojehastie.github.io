@@ -93,10 +93,14 @@
         width: 100%;
         text-align: center;
         background-color: rgb(119, 107, 119);
+        padding-top: 25px;
+        padding-bottom: 25px;
     }  
 .copyright-container {
     float: left;
     width: 100%;
     text-align: center;
     background-color: #fff;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
