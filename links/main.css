@@ -79,18 +79,21 @@ img {
 h1  {
     font-weight: 500;
     color: #4D4D4F;
-    height: 200;
+    /* height: 200; */
     font-family: montserrat, sans-serif;
     flex-direction: column;
     justify-content: center
 }
 
-h2, p, a {
+h2 {
     font-weight: 500;
     line-height: 29px;
     font-size: 16px;
     z-index: 2;
     color: #4D4D4F;
+    align-content: center;  
+    align-self: center;
+    text-align: center;
    
 }
 /* ---=== end header container ===--- */
@@ -98,18 +101,27 @@ h2, p, a {
 /* ---=== nav-link container ===--- */
 li {  font-size: 22px;
       text-decoration: none;
+      
          
 }
 
 li, a{
     text-decoration: none;
     line-height: 44px; 
+    vertical-align: text-top;
+    align-content: center;  
+    text-align: center;
+    padding: 20px 0px;
+    color: #4D4D4F;
+   
+ 
 }   
 
 ul {
      padding: 0px;
      margin: 0px;
      list-style: none; 
+     /* align-content: center;   */
 }         
 
 button{   
@@ -122,18 +134,23 @@ button{
   
 .button {
     display: flex;
-    align-content: center;   
+    /* align-content: center;    */
     align-items: center;
-    flex-direction: column;  
+    flex-direction: column; 
+    
 
  }
     
  button{   
     font-size: 16px;
     background-color:  #E39C9C; 
-    padding: 20px 0;
+    padding: 0px 0px;
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 5px;  
+    border-width:5px;  
+    border-style:double;
+    align-self: center;
+    
 }
 /* ---=== end nav-link container ===--- */
 
@@ -165,3 +182,20 @@ button{
  /* ---=== end footer container ===--- */
   
     
+/*-----== media queries ==-----*/
+/*---- media queries----*/
+@media screen and (max-width: 500px){
+    ul {
+        width: 100%; 
+    }
+    li, a{
+        text-decoration: none;
+        line-height: 22px; 
+        vertical-align: text-top;
+        align-content: center;  
+        text-align: center;
+        padding: 20px 0px;
+    }   
+} 
+   
+   
