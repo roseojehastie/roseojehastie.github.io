@@ -153,3 +153,9 @@ button:hover{
   padding-right: 25px;
   
 }
+
+@media only screen and (max-width: 600px) {
+  card {
+    width: 90%;
+  }
+}
