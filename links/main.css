@@ -34,7 +34,7 @@ body {
 
 /* ---=== wrapper container ===--- */
  .card{
-    width: 30% ;
+    width: 55% ;
     height: 80%;
     font-size: 16px;
     margin-top: 60px;
@@ -189,58 +189,56 @@ button{
     
 /*-----== media queries ==-----*/
 /*---- media queries----*/
-@media screen and (max-width: 600px){
-    .card {
-        width: 90%;
-        height: 95%; 
-    }
-}   
- 
-/* Extra small devices (phones, 600px and down) */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
     .card {
         width: 90%;
         height: 95%; 
     }
-
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+
+/* Landscape */
+@media screen 
+and (max-device-width: 600px) 
+and (max-device-height: 400px) 
+and (orientation: landscape) {
     .card {
-        width: 90%;
-        height: 95%; 
-    }
+        background-color: lightblue;
+      }
+
 }
 
+ 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/*@media only screen and (min-width: 768px) {
     .card {
         width: 90%;
         height: 95%; 
     }
-}
+} */
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
     .card {
         width: 30%;
         height: 95%; 
     }
-}
+} */
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
     .card {
         width: 70%;
         height: 95%; 
-    }
-} 
+    } */
+/* } 
 @media only screen and (max-width: 1200px) {
     .card {
         width: 50%;
         height: 95%; 
     }
 
-}  
+}   */
    
