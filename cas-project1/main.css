@@ -11,7 +11,7 @@ body {
 }
 
 /*----======== wrapper section =======----*/
-.wrapper {
+.main-container {
     width: 100%;
     height: auto;
     margin: 0px;
@@ -139,7 +139,7 @@ h2 {
 /*----========= end footer section =========----*/
 
 /*---- media queries----*/
-@media screen and (min-width: 500px) and (max-width: 1024px) {
+/* @media screen and (min-width: 500px) and (max-width: 1024px) {
     ul {
         width: 100%; 
     }
@@ -148,11 +148,11 @@ h2 {
         display: flex;
         
     }
-}
+} */
 /*---- media queries----*/
-@media screen and (max-width: 500px){
+/* @media screen and (max-width: 600px){
     ul {
-        width: 100%; 
+        width: 90%; 
     }
   .visual{
         width: 100%; 
@@ -176,7 +176,66 @@ h2 {
         }
 }
             
+ */
 
+    
+/*-----== media queries ==-----*/
+/*---- media queries----*/
+@media screen and (max-width: 600px){
+    .visual-1{
+        width: 100%;
+        height: 95%; 
+    }
+}   
+ 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 90%;
+        height: 95%; 
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .visual-1{
+        width: 90%;
+        height: 95%; 
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .visual-1 {
+        width: 90%;
+        height: 95%; 
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .visual-1 {
+        width: 90%;
+        height: 95%; 
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .visual {
+        width: 70%;
+        height: 95%; 
+    }
+} 
+@media only screen and (max-width: 1200px) {
+    .visual-1 {
+        width: 100%;
+        height: 95%; 
+    }
+
+}  
+   
 
 
    
