@@ -15,7 +15,7 @@ body{
   }
    /* =======body section=======*/
 
-  /* =======main-container=======*/
+   /* =======main-container=======*/
 .main-container {
   width: 100%;
   height: 100vh;
@@ -44,8 +44,8 @@ ul.topnav {
 
 }
   
-  ul.topnav li {float: left;
-}
+ul.topnav li {float: left;
+    }
   
   ul.topnav li a {
     display: block;
@@ -74,7 +74,7 @@ ul.topnav {
   }
    /* =======end navigation-container=======*/
 
-/*========banner========*/
+  /*========banner========*/
 
   .banner{
     width: 100%;
@@ -111,10 +111,10 @@ ul.topnav {
   button:hover {background-color: #fff;
     color: black;
   }
-   /* =======end banner=======*/
+  /* =======end banner=======*/
 
 
-/*=======content container========*/
+ /*=======content container========*/
 
 .content-container {
     background-color: #fff;
@@ -138,7 +138,6 @@ ul.topnav {
   align-content: center;
 }  
 
-
 .img-1  {
  display: flex;
  float: right;
@@ -147,8 +146,8 @@ ul.topnav {
   padding-top: 120px;
   /* padding-right:100px ; */
  
-
 }
+
 .img1{
  width: 150px;
  height: 150px;
@@ -224,11 +223,14 @@ ul.topnav {
     padding-right: 0px;
     padding-left: 0px;
     padding-top: 30px;
+  
   }
+
 .social{
   float: left;
   list-style: none;
   padding: 3px;
+
 }
 
 .copyright-container {
@@ -236,21 +238,26 @@ ul.topnav {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
-  .main-container  {
-      width: 90%;
+ /* @media only screen and (min-width: 600px) {
+  body  {
+      width: 50%;
       height: 95%; 
   }
-}
+}  */
 
 
 /* Landscape */
 @media screen 
 and (max-device-width: 600px) 
-and (max-device-height: 400px) 
+and (max-device-height: auto) 
 and (orientation: landscape) {
-  .main-container  {
+  body {
       background-color: lightblue;
     }
 
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  body {width: 100%;
+  } 
 }

@@ -248,13 +248,25 @@ padding-top: 100px;
 
 
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column.side, .column.middle {
+  /* @media screen and (max-width: 600px) {
+    body{
       width: 100%;
+     
     }
+  } */
+  @media screen and (max-width: 500px) and (max-width: 1024px) {
+    body {width: 100%;
+    } 
   }
-  @media screen and (min-width: 500px) and (max-width: 1024px) {
-    ul {width: 100%;
-    }
+
+ @media screen 
+ and (max-device-width:350px)
+ and (max-device-width: 600px) 
+ and (max-device-height: 400px) 
+ and (orientation: landscape) {
+    body {
+      width: 70%;
+      
+} 
 }
 
