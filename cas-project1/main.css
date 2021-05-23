@@ -90,28 +90,31 @@ li {
     width: 100%;
     height: auto;
     display: flex;
+    display: inline-block;
     padding: 5%;
     padding-top: 20px;
  
 }
 
 .visual-1 { 
+
     height: auto;
     display: flex;
     align-items: center;
     text-align: center;
     display: inline-block; 
     flex: 50;
+    padding: 15px;
 }
 
 img {
-    width: 500px;
-    height: 300px;
-    padding-right: 30px;
+    width: 480px;
+   height: 300px;
+     /* padding-right: 30px; */
 }
 
 iframe{
-    width: 500px;
+    width: 480px;
     height: 300px;
     padding: 0px;
 } 
@@ -139,111 +142,26 @@ h2 {
 /*----========= end footer section =========----*/
 
 /*---- media queries----*/
-/* @media screen and (min-width: 500px) and (max-width: 1024px) {
-    ul {
+ /* @media screen and (max-width: 500px) and (max-width: 1024px) {
+    body {
         width: 100%; 
-    }
-  .visual{
-        width: 100%; 
-        display: flex;
-        
     }
 } */
-/*---- media queries----*/
-/* @media screen and (max-width: 600px){
-    ul {
-        width: 90%; 
-    }
-  .visual{
-        width: 100%; 
-        display: flex;
-  }
-    .section1 {
-        height: 10px;
-    }
-    @media screen and (max-width: 500px){
-        .visual{
-            width: 100%; 
-            display: flex;
-            display: block;
-            flex-direction: column;
-        }  
-        
-        }
-
-        ul {
-            width: 100%; 
-        }
-}
-            
- */
-
-    
-/*-----== media queries ==-----*/
-/*---- media queries----*/
-@media screen and (max-width: 600px){
-    .visual-1{
-        width: 100%;
-        height: 95%; 
-    }
-}   
- 
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .card {
-        width: 90%;
-        height: 95%; 
-    }
-
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .visual-1{
-        width: 90%;
-        height: 95%; 
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .visual-1 {
-        width: 90%;
-        height: 95%; 
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .visual-1 {
-        width: 90%;
-        height: 95%; 
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .visual {
-        width: 70%;
-        height: 95%; 
-    }
-} 
-@media only screen and (max-width: 1200px) {
-    .visual-1 {
+    .main-container {
         width: 100%;
         height: 95%; 
     }
-
-}  
-   
+}
 
 
-   
+/* Landscape */
+/* @media screen 
+and (max-device-width: 600px) 
+and (max-device-height: 400px) 
+and (orientation: landscape) {
+    body {
+        background-color: lightblue;
+      }
 
-
-
-
-
-
-
-
+} */
