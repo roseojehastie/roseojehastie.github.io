@@ -164,7 +164,7 @@ button{
     display: flex;
     display: inline-block;
     background-color: #e46e6e; 
-    float:left;
+    /* float:left; */
     
  }
 
