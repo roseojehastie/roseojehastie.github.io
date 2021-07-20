@@ -58,11 +58,11 @@ ul.topnav li a.active {
 .topnav li a.active:hover {
   background-color: #fff;
 }
-/* .banner-container {
+/*---END-TOP-NAVIGATION-BAR*/
+.banner-container {
   width: 100%;
   background-color: #f44336;
   color: #fff;
- 
 }
 .banner-container {
   padding: 80px;
@@ -73,4 +73,22 @@ ul.topnav li a.active {
 .banner > h1 {
   font-weight: 900;
   font-size: 64px;
-} */
+}
+/* ----end banner container----*/
+
+/* ----button---- */
+button {
+  color: #fff;
+  background-color: #000;
+  padding: 12px 24px;
+  margin-top: 16px;
+  font-size: 18px;
+  font-stretch: 100%;
+  white-space: nowrap;
+}
+
+button:hover {
+  background-color: #fff;
+  color: black;
+}
+/* ----end banner container----*/

@@ -101,19 +101,9 @@ button:hover {
   color: black;
 }
 /* ----end banner container----*/
-*
-  Create
-  five
-  equal
-  columns
-  that
-  floats
-  next
-  to
-  each
-  other
-  */
-  .column-container {
+
+/*Create five equal columns that floats next to each other */
+.column-container {
   display: flex;
   display: block;
   width: 100%;
