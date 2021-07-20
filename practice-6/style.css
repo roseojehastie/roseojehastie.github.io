@@ -110,3 +110,51 @@ button:hover {
   padding: 5px;
 }
 /*--- end 5 column container---*/
+
+/*--=====Footer==*/
+.quote-container {
+  display: flex;
+  display: block;
+  width: 100%;
+  float: left;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.6;
+  /* font-size: 4px; */
+  font-weight: 100;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 30px;
+}
+/* ----end quote container----*/
+
+.social-media-container {
+  display: flex;
+  display: block;
+  background-color: #fff;
+  color: #000;
+  /* line-height: 22.5px; */
+  opacity: 0.6px;
+  /* height: 120px; */
+  /* text-align: center; */
+  align-content: center;
+  padding-bottom: 40px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 60px;
+}
+.social {
+  float: left;
+  list-style: none;
+  padding: 3px;
+  /* padding-top: 30px; */
+  padding-bottom: 40px;
+}
+.copyright-container {
+  float: right;
+  /* padding-top: 30px; */
+  padding-bottom: 40px;
+  padding-right: 20px;
+}
